@@ -94,7 +94,7 @@ assert_matches = "1.5"
 bimap = "0.6.3"
 bincode = { version = "2", features = ["serde"] }
 cairo-lang-primitive-token = "1"
-cairo-vm = { git = "https://github.com/lambdaclass/cairo-vm.git", rev = "e2c6c91c73cd0bc351721f302390fcc0965c6224", features = [
+cairo-vm = { git = "https://github.com/0xLucqs/cairo-vm", branch = "main", features = [
     "extensive_hints",
     "mod_builtin",
     "clap",
